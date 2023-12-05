@@ -1,0 +1,408 @@
+.body {
+  overflow-x: hidden;
+}
+section p {
+  line-height: 38px;
+  font-size: 26px;
+}
+section div:nth-child(even) img {
+  padding: 80px 0 0 40px;
+}
+section:nth-of-type(2) div:nth-of-type(2) {
+  margin: -86px auto 0 -79px;
+}
+section:nth-of-type(3) div:nth-of-type(1) {
+  margin-top: -50px;
+}
+.bottom_block {
+  text-align: center;
+}
+.bottom_block h2,
+.bottom_block p {
+  margin: 83px 308px 157px;
+  width: 800px;
+  text-align: center;
+}
+.bottom_block a {
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 18px 37px;
+  margin: -24px 20px 83px 0;
+}
+.btn {
+  color: white;
+  background: black;
+}
+.wiki-navigation,
+.cicade-navigation {
+  color: #777;
+}
+.about-navigation {
+  color: green;
+}
+
+/* таблца с добавлением ячеек */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.table_main1 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fscientificrussia.ru%2Farticles%2Fkotiki-i-my&psig=AOvVaw3Lbk5DLvPwMlv1HxorP5NG&ust=1698940999093000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDsx8eWo4IDFQAAAAAdAAAAABAF');
+}
+th,
+td {
+  border: 1px solid #999;
+  font-size: 14px;
+  padding: 8px;
+  text-align: left;
+  font-weight: 400;
+}
+th {
+  color: #990;
+  cursor: pointer;
+}
+th:hover {
+  background: #eee;
+}
+td > span {
+  border-radius: 4px;
+  padding: 6px;
+}
+.redType {
+  background-color: #ffe2dd;
+}
+.greenType {
+  background-color: #dbeddb;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 52px;
+  gap: 19px;
+  align-items: center;
+}
+form input,
+form select,
+form button {
+  padding: 6px;
+  margin-right: 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+form button {
+  cursor: pointer;
+}
+
+/* таблица с картинкой  */
+
+* {
+  box-sizing: border-box;
+}
+.table-name {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.catimg {
+  width: 100%;
+  opacity: 100%;
+}
+.catimg2 {
+  width: 100%;
+  opacity: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.urlo td {
+  width: 100%;
+  height: 100%;
+}
+.burlo {
+  width: 100%;
+  height: 100px;
+  border-collapse: collapse;
+}
+.burlo td {
+  background-image: url('./images/cat2.png'); /* Путь к изображению внутри ячейки */
+  background-size: cover;
+}
+
+/* 11- Фрагмент с работающе формой для отправки информации на удаленный сервер контактных данных посетителя (фамилия, имя, мобильный телефон, электронка, дата отправки сообщения); */
+.h-tittle2 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  height: 100%;
+  width: auto;
+  border: none;
+  margin-bottom: 108px;
+  margin-left: 19px;
+  align-items: center;
+}
+.formochka {
+  width: 20%;
+  margin-bottom: 70px;
+}
+label {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: #f2f2f2;
+  border: none;
+  gap: 20px;
+}
+input {
+  display: flex;
+  width: 300px;
+  height: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px;
+  border-radius: 10px;
+  border: none;
+}
+.send-form {
+  width: 300px;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  margin-top: -30px;
+}
+.send-forma {
+  width: 300px;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+}
+
+/* 12 task */
+.form-twelve {
+  gap: 13px;
+}
+
+/* PASSPORT */
+.passport-container {
+  width: auto;
+  height: auto;
+}
+.image {
+  position: absolute;
+  z-index: 1;
+  width: 80vh;
+}
+
+.passport,
+.next-page {
+  position: absolute;
+  z-index: 2;
+}
+
+/* h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    top: 20px;
+    position: absolute;
+    width: 511px;
+  } */
+.text_start {
+  font-size: 20px;
+  text-transform: uppercase;
+  top: 20px;
+  position: absolute;
+  width: 511px;
+}
+
+p {
+  font-size: 10px;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.adress {
+  top: 67px;
+  left: 31px;
+  width: 500px;
+  position: absolute;
+}
+
+.data {
+  top: 153px;
+  left: 32px;
+  width: 204px;
+  position: absolute;
+}
+
+.subdivision {
+  position: absolute;
+  top: 153px;
+  left: 204px;
+  width: 204px;
+}
+
+.district,
+.numbers {
+  text-transform: uppercase;
+}
+
+.lastname {
+  position: absolute;
+  top: 330px;
+  left: 178px;
+  width: 204px;
+}
+
+.name {
+  position: absolute;
+  top: 387px;
+  left: 178px;
+  width: 204px;
+}
+
+.surname {
+  position: absolute;
+  top: 416px;
+  left: 178px;
+  width: 204px;
+}
+
+.gender {
+  position: absolute;
+  top: 443px;
+  left: 178px;
+  width: 204px;
+}
+
+.birth-data {
+  position: absolute;
+  top: 438px;
+  left: 257px;
+  width: 130px;
+  line-height: 100%;
+}
+
+.birth-place {
+  position: absolute;
+  top: 466px;
+  left: 178px;
+  width: 131px;
+  line-height: 100%;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 50px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Form Styles */
+#contactForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+radio {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Thank-you Message Styles */
+.thank-you-message {
+  display: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+}

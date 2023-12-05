@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>О проекте</title>
+    <link rel="stylesheet" href="stylesheets/about.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+
+    <!-- shapka -->
+    
+    <div class="all_about">
+      <div class="menubar">
+        <a href="index.html"><img src="images/logo.svg" alt="" /></a>
+        <a href="wikimedium.html">Wiki</a>
+        <a id="color-green" href="about.html">О проекте</a>
+        <a href="page.html">Кошечки</a>
+      </div>
+
+      <h1 class="contact">Оставь заявку на обучение</h1>
+
+<form id="contactForm" action="/submit_form.php" method="post">
+    <!-- Text Input -->
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+
+    <!-- Number Input -->
+    <label for="age">Возраст:</label>
+    <input type="number" id="age" name="age" min="1" required>
+
+    <!-- Radio Input -->
+    <p>Пол:</p>
+    <label for="male">Мужчина</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+
+    <label for="female">Женщина</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+
+    <!-- Submit Button -->
+    <button type="submit">Отправить</button>
+</form>
+
+<div class="thank-you-message" id="thankYouMessage">Спасибо за заявку! Мы скоро свяжемся с Вами!</div>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Hide the form
+        document.getElementById('contactForm').style.display = 'none';
+
+        // Show the thank-you message
+        document.getElementById('thankYouMessage').style.display = 'block';
+    });
+</script>
+
+    </body>
+</html>

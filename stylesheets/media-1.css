@@ -1,0 +1,41 @@
+@media only screen and (max-width: 970px) {
+  #container {
+    margin: 10px 20px;
+    width: 95%;
+  }
+  .index_item {
+    width: 741px;
+  }
+}
+
+@media (max-width: 768px) {
+  .index_item {
+    width: 480px;
+  }
+}
+
+@media (max-width: 576px) {
+  .index_item {
+    width: 360px;
+  }
+}
+
+@media (max-width: 440px) {
+  .index_item {
+    width: 320px;
+  }
+
+  .menubar img {
+    height: 10px;
+  }
+
+  .menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding: 10px 22px;
+    font-size: 13px;
+    margin-left: -15px;
+  }
+}
